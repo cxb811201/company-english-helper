@@ -15,7 +15,7 @@
 ;;
 ;; Features that might be required by this library:
 ;;
-;; `cl' `cl-lib' `company' `company-english-helper-data'
+;; `cl-lib' `company' `company-english-helper-data'
 ;;
 
 ;;; This file is NOT part of GNU Emacs
@@ -107,7 +107,7 @@
 ;;
 
 ;;; Require
-(require 'cl)
+;; (require 'cl)
 (require 'cl-lib)
 (require 'company)
 (require 'company-english-helper-data)
